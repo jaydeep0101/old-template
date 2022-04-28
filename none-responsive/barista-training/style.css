@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-height: 100vh;
+	max-width: 100vw;
+	background-color: #e0e5eb;
+}
+
+header {
+	background-color: white;
+	color: black;
+}
+
+nav {
+	margin: 0 7%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-logo {
+	padding: 1rem 0;
+}
+
+.nav-logo img {
+	max-height: 4rem;
+	max-width: 4rem;
+}
+
+ul {
+	align-self: center;
+
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	padding: 0 1.5rem;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul .active, ul li a:hover {
+	color: red;
+}
+
+section {
+	
+}
+
+.bg-image-division {
+	background-image: url('images/first-image.png');
+	height: 60vh;
+	margin: 25% 0 0 30%;
+	background-size: initial;
+	background-repeat: repeat;
+	background-position: top left;
+
+}
+
+.container {
+	display: flex;
+	margin-top: -50%;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.bg-color-division {
+	background-color: #74524d;
+	height: 29.625rem;
+	width: 27rem;
+
+	
+}
+
+.information {
+	background-color: white;
+	height: 42.0625rem;
+	width: 45rem;
+	margin-top: -5%;
+}
+
+.information-division {
+	margin: 35% 0 0 25%;
+}
+
+.title h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 3.75rem;
+	color: #74524d !important;
+	text-transform: capitalize;
+}
+
+.paragraph-division {
+	margin-top: 1.75rem;
+	width: 80%;
+}
+
+.paragraph-division p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;	
+	font-size: 1.125rem;
+}
+
+.image-owner {
+	margin-top: 5%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;	
+	font-size: 1.125rem;
+}
+
+span {
+	font-style: italic;
+}
+
+.btn-division {
+	margin-top: 5%;
+}
+
+.btn-division a{
+	padding: 0.7rem 4rem;	
+	border: 2px solid #74524d;
+	text-decoration: none;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.hero {
+	width: 31.0625rem;
+	height: 31.3125rem;
+	margin-top: -42%;
+	margin-left: 12%;
+}
+
+.hero-image-tag {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+footer {
+	margin-top: 12%;
+	padding: 5%;
+	background-color: #333333;
+	color: white;
+}
+
+.footer-paragraph {
+	text-align: center;
+	width: 34%;
+	margin: 0 auto;
+
+}

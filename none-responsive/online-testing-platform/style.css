@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eaf4fd;
+}
+
+.main-container {
+	margin: 3% 10% 0 10%;
+}
+
+.bg-color-class {
+	height: 17rem;
+	width: 80%;
+	background-color: pink;
+	position: relative;
+	margin-top: 10%;
+}
+
+.grid-div {
+	position: absolute;
+	top: 9%;
+	display: grid;
+	grid-template-areas: 
+	"img text-class";
+	grid-gap: 3rem;
+}
+
+.img {
+	height: 500px;
+	width: 470px;
+	margin-left: 4rem;
+	grid-area: img;
+}
+
+.text-class {
+	height: 500px;
+	width: 470px;
+	background-color: white;
+	grid-area: text-class;
+}
+
+.online-exam-name {
+	margin: 18% 10% 0 18%;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 1.125rem;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	margin: 5% 10% 0 18%;
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+.paragreph {
+	margin: 5% 8% 0 8%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+
+.image-from {
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.span-class {
+	border: 2px black;
+	border-style: none none solid;
+}
+
+.btn-class {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.btn-class a {
+	padding: 2.5% 5%;
+	background-color: black;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 4px;
+}
+
+.footer h5{
+	text-align: center;
+	margin-top: 14rem;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    font-size: 1rem;
+}
+

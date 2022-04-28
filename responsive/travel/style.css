@@ -1,0 +1,155 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	width: 400;
+	background-color: #e5e5e5;
+}
+
+.first-container {
+	margin: 5% 15%;
+	display: grid;
+	/*grid-template-areas: ;*/
+	grid-template-columns: 1fr 1fr;
+}
+
+.first-container .first-division h2 {
+	width: 700;
+	font-size: 700;
+	text-transform: uppercase;
+	padding: 0 4rem;
+}
+
+.first-container .first-division .first-paragraph {
+	margin-top: 5%;
+	width: 70%;
+	padding: 0 4rem;
+
+}
+
+.first-container .first-division .second-paragraph {
+	margin-top: 5%;
+	opacity: 0.7;
+	text-transform: capitalize;
+	padding: 0 4rem;
+}
+
+.first-division {
+}
+
+.second-division {
+	height: 17.75rem;
+	width: 36.0625rem;
+	
+}
+
+.second-division .img-tag {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media(max-width: 992px) {
+	.first-container {
+	grid-template-columns: 1fr;
+	}
+
+	.first-container .first-division {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.first-container .first-division .first-paragraph {
+		width: 55%;
+		margin: 3% auto;
+	}
+
+	.first-container .first-division .second-paragraph {
+		margin-top: 3%;
+	}
+
+	.second-division {
+		margin: 0 auto;
+		height: 15rem;
+		width: 32rem;
+	}
+}
+
+@media(max-width: 800px) {
+	.first-container {
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+
+	.first-container .first-division {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.first-container .first-division .first-paragraph {
+		width: 60%;
+		/*margin: 3% auto;*/
+	}
+
+	.first-container .first-division .second-paragraph {
+		text-align: center;
+	}
+}
+
+
+@media(max-width: 500px) {
+	.first-container {
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+
+	.second-division {
+		width: 25rem;
+		height: 15rem;
+	}
+
+	.second-division .img-tag {
+		width: 100%;
+		height: 100%;
+	}
+
+	.first-container .first-division .first-paragraph {
+		width: 77%;
+	}
+}
+
+@media(max-width: 360px) {
+	.first-container {
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+
+	.first-division h2 {
+		font-size: 1rem;
+		/*width: 100%;*/
+		padding: 0 2rem;
+	}
+
+	.first-container .first-division .first-paragraph {
+		/*width: 70%;*/
+		padding: 0 1rem;
+	}
+
+	.second-division {
+		width: 18rem;
+		height: 12rem;
+	}
+
+	.second-division .img-tag {
+		width: 100%;
+		height: 100%;
+	}
+
+}

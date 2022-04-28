@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-height: 100vh;
+	max-width: 100%;
+	line-height: 1.6;
+	font-size: 1rem;
+	font-family: sans-serif;
+	background: white;
+}
+
+.iamge-blog-container {
+	margin: 0 8%;
+}
+
+.items {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: .5rem;
+	padding-top: 7rem;
+}
+
+.first-image {
+    width: 483px;
+    height: 365px;
+    position: relative;
+    left: 17%;
+}
+
+.second-image {
+	width: 36.4rem;
+	border-top: .5rem solid transparent;
+}
+
+.image-tag {
+	height: 100%;
+	width: 100%;
+}
+
+.third-image {
+	width: 100%;
+	height: 36rem;
+	margin-top: 7rem;
+}
+
+.blog-title {
+	position: absolute;
+	margin-top: -32rem;
+	background: black;
+	color: white;
+	text-align: center;
+	width: 32%;
+	margin-left: 28rem;
+}
+
+.title h1 {
+	text-transform: uppercase;
+	font-weight: 2rem;
+	font-weight: 400;
+	padding-top: 1.5rem;
+}
+
+.title p {
+	width: 70%;
+	margin: 1rem auto;
+}
+
+.blog-btn {
+	padding: 2rem 0;
+}
+
+.title a { 
+	text-decoration: none;
+	color: white;
+	padding: 0.7rem 1.5rem;
+	border: 2px solid white;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: .9rem;
+}
+
+.title a:hover { 
+	color: black;
+	background: white;
+}
+
+footer {
+	margin-top: 4rem;
+	background: #333;
+	color: white;
+}
+
+.footer-para {
+	width: 33%;
+	margin: 0 auto;
+	padding: 2rem 0;
+	text-align: center;
+}
+
+
+
+

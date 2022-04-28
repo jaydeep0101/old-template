@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 0 9% 0 9%;
+	/*background: #f2f2f2;*/
+	border: 3px #f2f2f2;
+	border-style: none none solid;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	padding-top: 15px;
+}
+
+.nav-items {
+	align-self: center;
+}
+
+.nav-items a{
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+}
+
+.nav-items .active {
+	color: #f98a0d;
+}
+section {
+	margin: 5% 9% 0 9%;
+}
+
+h1 {
+	font-size: 6rem;
+	font-weight: 700;
+	color: #f98a0d;
+	font-family: 'Roboto', sans-serif;
+}
+
+.title-underline {
+	height: 8px;
+	width: 71px;
+	background-color: #f98a0d;
+	margin-top: 1rem;
+}
+
+.paragreph {
+	color: #755c40;
+	font-family: 'Open Sans', sans-serif;
+	width: 44%;
+	font-size: 1.1rem;
+	font-weight: 370;
+	margin-top: 1rem;
+}
+
+.images-from-name {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1rem;
+	margin-top: 1rem;
+	color: #755c40;
+}
+
+.image-owner {
+	border: 3px #f98a0d;
+	border-style: none none solid;
+}
+
+.bg-center {
+	height: 100px;
+	background-color: orange;
+	margin-top: 250px;
+	position: relative;
+}
+
+main {
+	margin: 5% 9% 0 9%;
+	position: absolute;
+	top: 60%;
+}
+
+.hero {
+	display: grid;
+	grid-template-areas:
+	"first-img second-img third-img";
+}
+
+.teem-img img{
+	object-fit: cover;
+}
+
+.first-img {
+	height: 327px;
+	width: 100%;
+	grid-area: first-img;
+}
+
+.second-img {
+	height: 327px;
+	width: 100%;
+	grid-area: second-img;
+}
+
+.third-img {
+	height: 327px;
+	width: 100%;
+	grid-area: third-img;
+}
+
+.first-img-div {
+	padding-right: 20%;
+}
+
+.second-img-div {
+	padding-top: 4rem;
+	padding-right: 20%;
+}
+
+.third-img-div {
+	padding-top: 9rem;
+	padding-right: 20%;
+}
+
+.owner-name {
+	margin-left: 9%;
+	margin-top: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 350;
+}
+
+.owner-work {
+	margin-top: 1rem;
+	margin-left: 9%;
+	font-size: 1.125rem;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	color: #808080;
+}
+
+.social-media {
+	margin-left: 9%;
+	margin-top: 1rem;
+	display: flex;
+}
+
+svg {
+	margin-left: 9%;
+	height: 30px;
+	fill: #f98a0d; 
+}
+
+.instagram {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+footer {
+	margin-top: 26rem;
+	background-color: #333333;;
+}
+
+footer p {
+	color: white;
+	padding: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 30%;
+}
+

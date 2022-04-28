@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="28"/>
+    </defs>
+    <g id="email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"/>
+            </mask>
+            <use id="Rectangle-7" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"/>
+            <g id="email-outline" mask="url(#mask-2)" stroke="#758693" stroke-linecap="round" stroke-linejoin="round">
+                <g transform="translate(1.400000, 5.900000)" id="Shape">
+                    <path d="M25.0583333,14.7666667 C25.0583333,15.6636667 24.3303333,16.3916667 23.4333333,16.3916667 L1.76666667,16.3916667 C0.869666667,16.3916667 0.141666667,15.6636667 0.141666667,14.7666667 L0.141666667,1.76666667 C0.141666667,0.868583333 0.869666667,0.141666667 1.76666667,0.141666667 L23.4333333,0.141666667 C24.3303333,0.141666667 25.0583333,0.868583333 25.0583333,1.76666667 L25.0583333,14.7666667 Z"/>
+                    <polyline points="21.8083333 4.475 12.6 10.4333333 3.39166667 4.475"/>
+                    <path d="M3.39166667,12.6 L7.18333333,10.4333333"/>
+                    <path d="M21.8083333,12.6 L18.0166667,10.4333333"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

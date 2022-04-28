@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-height: 100%;
+	max-width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	line-height: 1.6;
+	background: linear-gradient(to top, #8de0ee 68%, white 32%);
+}
+
+::selection {
+  color: #adcce9;
+  background: white;
+}
+
+.blog {
+	margin: 5rem 17% 5rem 17%;
+}
+
+.blog h1 {
+	font-size: 5rem;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.blog h2 {
+	color: #61d4e7;
+	/*letter-spacing: 1px;*/
+	font-size: 2.25rem;
+	font-weight: 700;
+}
+
+.u-effect {
+	width: 26.85rem;
+	height: 19rem;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.u-height {
+	width: 100%;
+	height: 100%;
+}
+
+.images-tag {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container {
+	padding-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+}
+
+.u-effect:hover .u-slide {
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+	transition: all 500ms ease;
+}
+
+footer {
+	height: 5rem;
+	background-color: #333;
+	color: white;
+	margin-top: 3rem;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 2rem;
+}
+
+footer p span {
+	font-style: italic;
+}
+
+@media(max-width: 1024px) {
+	.blog {
+		margin: 5rem 6% 5rem 6%;
+	}	
+}
+
+@media(max-width: 992px) and (min-width: 769px) {
+	.container {
+		padding-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 2rem;
+	}	
+
+	.u-effect {
+	    width: 44rem;
+	    height: 30rem;
+	  }
+}
+
+@media(max-width: 768px) and (min-width: 577px) {
+	.blog {
+		margin: 5rem 3% 5rem 3%;
+	}	
+
+	.container {
+		padding-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 2rem;
+	}	
+
+	.u-effect {
+    	width: 42rem;
+    	height: 31rem;
+    	position: relative;
+    	overflow: hidden;
+    	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    	margin: 0 auto;
+	}
+}
+
+@media(max-width: 667px) {
+	.u-effect {
+    	width: 39.2rem;
+    	margin: 0 auto;
+    	height: 31rem;
+    	position: relative;
+    	overflow: hidden;
+    	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+	}
+}
+
+@media(max-width: 576px) {
+	.u-effect {
+	    width: 20.2rem;
+	    margin: 0 auto;
+	    height: 14rem;
+	}
+	.container {
+		padding-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 2rem;
+	}	
+}

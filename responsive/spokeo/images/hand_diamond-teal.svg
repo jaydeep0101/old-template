@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>hand_diamond-teal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="28"/>
+    </defs>
+    <g id="hand_diamond-teal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"/>
+            </mask>
+            <use id="Rectangle-6" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"/>
+            <g id="hand_diamond-teal-outline" mask="url(#mask-2)" stroke-linejoin="round">
+                <g transform="translate(1.000000, 1.000000)">
+                    <path d="M20.3350694,4.53645833 L5.66493056,4.53645833" id="Stroke-4144" stroke="#07CAB2" stroke-linecap="round"/>
+                    <polygon id="Stroke-4145" stroke="#07CAB2" stroke-linecap="round" points="13 13.0011285 5.66493056 4.53645833 9.05034722 0.0225694444 16.9496528 0.0225694444 20.3350694 4.53645833"/>
+                    <polygon id="Stroke-4146" stroke="#758693" points="15.8211806 25.9774306 22.5920139 25.9774306 22.5920139 22.5920139 15.8211806 22.5920139"/>
+                    <path d="M21.4635417,22.5920139 L21.4635417,20.8643229 C21.4635417,20.8643229 25.0599826,17.3039931 25.9774306,16.3854167 L25.9774306,7.28767361 C25.9774306,7.28767361 23.15625,6.26414931 23.15625,14.1284722 L19.805816,17.4789063 L20.5822049,14.0934896 C20.9703993,12.4707465 19.4864583,11.7778646 18.6773438,13.0349826 C17.9325521,14.1939236 16.9496528,17.5048611 16.9496528,17.5048611 L16.9496528,22.5920139" id="Stroke-4147" stroke="#758693" stroke-linecap="round"/>
+                    <polygon id="Stroke-4148" stroke="#758693" points="3.40798611 25.9774306 10.1788194 25.9774306 10.1788194 22.5920139 3.40798611 22.5920139"/>
+                    <path d="M4.53645833,22.5920139 L4.53645833,20.8643229 C4.53645833,20.8643229 1.15104167,17.3039931 0.0225694444,16.3854167 L0.0225694444,7.28767361 C0.0225694444,7.28767361 2.84375,6.26414931 2.84375,14.1284722 L6.19418403,17.4789063 L5.41779514,14.0934896 C5.02960069,12.4707465 6.51354167,11.7778646 7.32265625,13.0349826 C8.06744792,14.1939236 9.05034722,17.5048611 9.05034722,17.5048611 L9.05034722,22.5920139" id="Stroke-4149" stroke="#758693" stroke-linecap="round"/>
+                    <polyline id="Stroke-4150" stroke="#07CAB2" stroke-linecap="round" points="9.05034722 0.0225694444 10.1438368 4.53645833 13 13.0011285"/>
+                    <polyline id="Stroke-4151" stroke="#07CAB2" stroke-linecap="round" points="16.9496528 0.0225694444 15.8211806 4.53645833 13.0462674 13.0011285"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

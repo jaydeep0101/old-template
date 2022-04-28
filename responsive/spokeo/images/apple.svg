@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="28"/>
+        <rect id="path-3" x="0" y="0" width="28" height="28"/>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile_check_blue">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"/>
+            </mask>
+            <use id="path-1" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"/>
+            <g id="mobile-outline-Clipped" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"/>
+                </mask>
+                <g id="path-1"/>
+                <g id="mobile-outline" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)">
+                    <g transform="translate(6.000000, 1.000000)" id="Shape">
+                        <g transform="translate(0.500000, 0.400000)">
+                            <path d="M14.2416667,22.8916667 C14.2416667,24.0876667 13.271,25.0583333 12.075,25.0583333 L2.325,25.0583333 C1.129,25.0583333 0.158333333,24.0876667 0.158333333,22.8916667 L0.158333333,2.30833333 C0.158333333,1.11233333 1.129,0.141666667 2.325,0.141666667 L12.075,0.141666667 C13.271,0.141666667 14.2416667,1.11233333 14.2416667,2.30833333 L14.2416667,22.8916667 Z" id="Path" stroke="#758693"/>
+                            <path d="M10.6123611,9.04753817 C10.4951759,8.96472567 10.3336574,8.99285067 10.251213,9.110559 L6.41002778,14.5863403 L4.94262037,13.1126423 C4.84150926,13.0108194 4.67713889,13.0108194 4.57602778,13.1126423 C4.47465741,13.2147257 4.47465741,13.3795694 4.57602778,13.4806111 L6.26121296,15.1733194 C6.3099537,15.2227986 6.37606481,15.2498819 6.44450926,15.2498819 C6.5269537,15.2498819 6.60706481,15.2100382 6.65632407,15.1394653 L10.6748426,9.41029859 C10.757287,9.29232984 10.729287,9.13009025 10.6123611,9.04753817 Z" stroke="#089FE4" stroke-width="0.78125" fill="#089FE4" fill-rule="nonzero"/>
+                            <path d="M14.2416667,20.725 L0.158333333,20.725" id="Path" stroke="#758693"/>
+                            <path d="M14.2416667,4.475 L0.158333333,4.475" id="Path" stroke="#758693"/>
+                            <path d="M4.49166667,2.30833333 L9.90833333,2.30833333" id="Path" stroke="#758693"/>
+                            <path d="M7.2,23.4333333 C6.901,23.4333333 6.65833333,23.1906667 6.65833333,22.8916667 C6.65833333,22.5926667 6.901,22.35 7.2,22.35 C7.499,22.35 7.74166667,22.5926667 7.74166667,22.8916667 C7.74166667,23.1906667 7.50008333,23.4333333 7.2,23.4333333 Z" id="Path" stroke="#758693"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("images/image-bg.jpg");
+	background-size: cover;
+	object-fit: cover;
+	display: block;
+}
+
+.container {
+	margin-left: 40%;
+	background-color: skyblue;
+	width: 31.5%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background-color: #4340ea;
+}
+
+.our-mission {
+	margin: 15% 10% 0 10%;
+}
+
+.our-mission  h4{
+	font-size: 1rem;
+	letter-spacing: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.title h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 1.2;
+	text-transform: capitalize;
+	margin: 5% 10% 0 10%;
+}
+
+.paragraph {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	margin: 5% 10% 0 10%;
+	font-size: 1rem;
+}
+
+.read-more {
+	margin: 5% 10% 0 10%;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.875rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.image-logo-first {
+	width: 16.8125rem;
+	transform: rotate(370deg);
+	margin: 3% 0 0 -9.4375rem;
+}
+
+.image-logo-second {
+	width: 14.5625rem;
+	/*transform: rotate(370deg);*/
+	margin: 5% 0 5% 22rem;
+}

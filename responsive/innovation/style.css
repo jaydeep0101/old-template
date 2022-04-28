@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to right, #2c2933 55%, #d9d9d9 50% );
+	height: 100vh;
+	width: 100%;
+	line-height: 1.6;
+	font-size: 1rem;
+}
+
+.blog {
+	margin: 3rem 7%;
+}
+
+.blog .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.first-division {
+	margin-top: 5rem;
+
+}
+
+.first-division h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: white;
+
+}
+
+.first-division p {
+	margin-top: 2rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.125rem;
+	font-style: italic;
+	color: #b3b3b3;
+}
+
+.first-division .btn-read-more {
+	margin-top: 2rem;
+}
+
+.first-division .btn-read-more a{
+	text-decoration: none;
+	color: black;
+	padding: 0.6rem 1.5rem;
+	background-color: #d5c837;
+}
+
+.underline {
+	border-top-width: 3px;
+	width: 2.6875rem;
+	color: #dacf50;
+	border-style: solid;
+	margin-top: 1rem;
+}
+
+.second-division {
+	display: grid;
+	grid-template-areas: 
+	"first-grid-division second-grid-division"
+	"third-grid-division fourth-grid-division";
+	background-color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.125rem;
+	font-style: italic;
+	color: #b3b3b3;
+}
+
+.second-division h3 {
+	color: black;
+}
+
+.first-grid-division {
+	grid-area: first-grid-division;
+}
+
+.second-grid-division {
+	grid-area: second-grid-division;
+}
+
+.third-grid-division {
+	grid-area: third-grid-division;
+}
+
+.fourth-grid-division {
+	grid-area: fourth-grid-division;
+}
+
+
+.u-div-padding {
+	padding: 2rem;
+
+}
+
+.span-icon {
+	display: inline-block;
+	width: 5rem;
+	height: 5rem;
+	background-color: #d9d9d9;
+	padding: 1rem;
+	border-radius: 50%;
+}
+
+.container {
+	display: flex;
+}
+
+.footer-social-icon {
+	background-color: black;
+	color: white;
+	fill: white;
+	padding: 3rem;
+	text-align: center;
+}
+
+.under-line {
+	border: 1px solid white;
+	margin-top: 1rem;
+	opacity: 0.5;
+}
+
+.social-icons {
+	margin-top: 2rem;
+}
+
+.social-icons i {
+	padding-right: 0.5rem;
+}
+.footer-social-icon p {
+	margin-top: 1rem;
+}
+
+.footer {
+	padding: 1rem;
+	text-align: center;
+	color: white;
+	background-color: #333;
+}
+
+.footer span {
+	font-style: italic;
+}
+
+
+@media(max-width: 992px) and (min-width: 769px) {
+	.blog {
+		margin: 3rem 3%;
+	}
+
+	.second-division p {
+		font-size: 0.95rem;
+	}
+
+	.container {
+		display: grid;
+		grid-template-areas: 
+		"first-division second-division";
+		grid-gap: 1rem;
+	}
+
+	.first-division {
+		padding: 1rem;
+		grid-area: first-division;
+	}
+
+	.first-division p {
+		width: 96%;
+	}
+
+	.second-division {
+		grid-area: second-division;
+	}
+}
+
+@media(max-width: 768px) and (min-width: 577px) {
+	
+	body {
+			background: linear-gradient(to bottom, #2c2933, #2c2933 50%, #d9d9d9 50%);
+  			background-repeat: no-repeat;
+  			height: 100%;
+	}
+
+	.container {
+		display: flex;
+		
+		flex-direction: column;
+	}
+
+	.first-division {
+		text-align: center;
+	}
+
+	.underline {
+		border-top-width: 3px;
+		width: 2.6875rem;
+		color: #dacf50;
+		border-style: solid;
+		margin-top: 1rem;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.second-division {
+		grid-template-areas: 
+		"first-grid-division"
+		"second-grid-division"
+		"third-grid-division"
+		"fourth-grid-division";
+		text-align: center;
+		font-size: 1rem;
+		margin-top: 3rem;
+	}
+}
+
+
+@media(max-width: 576px){
+	body {
+		height: 100%;
+		background: linear-gradient(to bottom, #2c2933, #2c2933 50%, #d9d9d9 50%);
+	}
+
+	.container	 {
+		margin: 2rem 5%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.first-division {
+		text-align: center;
+	}
+
+	.first-division .underline {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.second-division {
+		margin-top: 2rem;	
+		grid-template-areas: 
+		"first-grid-division"
+		"second-grid-division"
+		"third-grid-division"
+		"fourth-grid-division";
+	}
+
+	.second-division p {
+		font-size: 1rem;
+	}
+
+	.u-div-padding {
+		padding: 1rem;
+	}
+}
+

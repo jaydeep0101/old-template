@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>building_house</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="28"/>
+    </defs>
+    <g id="building_house" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"/>
+            </mask>
+            <use id="Rectangle-7" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"/>
+            <g id="building_house-outline" mask="url(#mask-2)" stroke="#758693" stroke-linecap="round" stroke-linejoin="round">
+                <g transform="translate(1.400000, 4.285283)">
+                    <path d="M0.141666667,21.2 L25.0583333,21.2" id="Shape"/>
+                    <path d="M0.141666667,11.9916667 L10.975,7.65833333" id="Shape"/>
+                    <path d="M2.30833333,11.1455833 L2.30833333,20.7269499" id="Shape"/>
+                    <path d="M9.35,0.075 L25.0583333,9.825" id="Shape"/>
+                    <path d="M22.8916667,8.50441667 L22.8916667,20.7269499" id="Shape"/>
+                    <polyline id="Shape" points="19.6416667 6.47425 19.6416667 2.24166667 21.8083333 2.24166667 21.8083333 7.81108333"/>
+                    <polygon id="Rectangle-path" points="13.1416667 16.6931857 20.725 16.6931857 20.725 21.0951356 13.1416667 21.0951356"/>
+                    <path d="M17.475,16.6931857 L17.475,21.0951356" id="Shape"/>
+                    <circle id="Oval" cx="14.7666667" cy="8.74166667" r="1.625"/>
+                    <polygon id="Rectangle-path" points="4.475 15.6098523 8.80833333 15.6098523 8.80833333 21.0951356 4.475 21.0951356"/>
+                    <path d="M4.475,13.4431857 L8.80833333,13.4431857" id="Shape"/>
+                    <path d="M10.975,1.10741667 L10.975,20.7269499" id="Shape"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

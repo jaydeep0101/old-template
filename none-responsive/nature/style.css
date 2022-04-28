@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+
+}
+
+section {
+	margin: 5% 10%;
+}
+
+.perenats {
+	display: grid;
+	grid-template-areas: 
+	"child-first child-second child-third";
+	grid-gap: 1rem;
+}
+
+.child-first {
+	grid-area: child-first;
+	display: flex;
+	flex-direction: column;
+}
+
+.child-second {
+	grid-area: child-second;
+	display: flex;
+	flex-direction: column;
+}
+
+.child-third {
+	grid-area: child-third;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.icon-logo {
+	width: 3.5rem;
+	margin-top: 2rem;
+}
+
+.image-tag {
+	height:500px;
+	width: 350px;
+	object-fit: cover;
+}
+
+.image-second {
+	height: 495px;
+	width: 350px;
+	object-fit: cover;
+}
+
+.icon-div-first {
+	background-color: #e0e5eb;
+	width: 350px;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.icon-div-second {
+	background-color: #e0e5eb;
+	width: 350px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.icon-div-third {
+	background-color: #e0e5eb;
+	width: 350px;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.title {
+	letter-spacing: 2px;
+	margin: 1.2rem;
+	font-family: 'Oswald', sans-serif;
+	font-size: 500;
+	line-height: 1.2;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.peregreph{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 2rem 2rem 2rem;
+	line-height: 1.4;
+	/*font-size: 1rem;*/
+	font-size: 400;
+}
+
+.image-forest {
+	height:430px;
+	width: 350px;
+	object-fit: cover;
+}
+
+.icon-forest {
+	margin-top: 20%;
+}
+
+.p-tag {
+	margin-bottom: 10%;
+}

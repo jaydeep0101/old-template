@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, #020202 60%, #e4a208 50%);
+	background-repeat: no-repeat;
+}
+
+header {
+	background: white;
+	color: black;
+	fill: black;
+}
+
+.navigation-bar {
+	margin: 0 8%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation-bar .nav-logo-icon {
+	margin: 1rem 0;
+}
+
+.navigation-bar .nav-menu-icon {
+	align-self: center;
+}
+
+.blog {
+	margin: 8rem 8% 4rem 8%;
+	background-color: white;
+	color: black;
+}
+
+.containers {
+	display: flex;
+}
+
+.containers .first-container{
+	height: 36rem;
+	width: 45rem;
+	margin-left: 3rem;
+	margin-top: -5%;
+}
+
+.containers .first-container .cakes-logo {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.containers .title {
+	padding: 4rem;
+	margin-top: 4rem;
+}
+
+.containers .title h1 {
+	font-size: 6rem;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.containers .title p {
+	text-align: center;
+	margin-top: 4rem;
+	color: #808080;
+	line-height: 1.6;
+	letter-spacing: 8px;
+	font-size: 1.25rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+} 
+
+.blog .images-from {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.25rem;
+	text-transform: capitalize;
+	line-height: 1.6;
+}
+
+footer {
+	padding: 3rem;
+	text-align: center;
+	color: white;
+	background-color: #333;
+}
+
+footer .owner-title {
+	margin-top: 1rem;
+}
+
+footer .owner-title span {
+	font-style: italic;
+}
+
+@media(max-width: 1024px) and (min-width: 993px) {
+	.navigation-bar {
+		margin: 0 3%;
+	}	
+
+	.blog {
+		margin: 8rem 3% 4rem 3%;
+	}
+
+	.blog .title {
+		padding: 2rem;
+	}
+
+	.blog .images-from {
+		margin: 2rem 3rem;
+	}
+}
+
+@media(max-width: 992px) and (min-width: 769px) {
+	.navigation-bar {
+		margin: 0 5%;
+	}	
+
+	.blog {
+		margin: 8rem 5% 4rem 5%;
+	}
+
+	.blog .title {
+		padding: 2rem;
+		margin-top: 9rem;
+	}
+
+	.blog .images-from {
+		margin: 2rem 3rem;
+	}
+
+	.containers .first-container {
+		height: 34rem;
+		width: 31rem;
+	}
+
+	.containers .title h1 {
+		font-size: 3.875rem;	
+	}
+}
+
+@media(max-width: 768px) and (min-width: 577px) {
+	.navigation-bar {
+		margin: 0 3%;
+	}	
+
+	.blog {
+		margin: 8rem 3% 4rem 3%;
+	}
+
+	.containers .first-container {
+		margin-left: 2rem;
+		height: 32rem;
+		width: 25rem;
+	}
+
+	.containers .title h1 {
+		font-size: 3rem;	
+	}
+}
+
+@media(max-width: 576px) {
+	.navigation-bar {
+		margin: 0 8%;
+	}	
+
+	.blog {
+		margin: 4rem 8% 4rem 8%;
+	}
+
+	.containers {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.containers .first-container {
+		margin: 0 auto;
+    	margin-top: 0px;
+		margin-top: -5%;
+		height: 27rem;
+		width: 19rem;
+	}
+
+	.containers .title h1 {
+		font-size: 2.5rem;	
+	}
+
+	.containers .title p {
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+	}
+
+	.blog .title {
+		padding: 1rem;
+		margin-top: 1rem;
+	}
+
+	.blog .images-from {
+		display: none;
+	}
+}
+
+@media(max-width: 375px) {
+	.navigation-bar {
+		margin: 0 3%;
+	}	
+
+	.blog {
+		margin: 4rem 3% 4rem 3%;
+	}
+}
+
+

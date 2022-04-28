@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-height: 100vh;
+	max-width: 100%;
+	font-size: 1rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5;
+	background-color: #9baead;
+	color: white;
+}
+
+header {
+	border-bottom: 1px solid #c0c0c0;
+}	
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem 7%;
+
+}
+
+.search-icon .u-svg-content {
+	height: 1rem;
+	position: absolute;
+	left: 19rem;
+	margin-top: 1rem;
+	color: #c0c0c0;
+	fill: #c0c0c0;
+}
+
+.search {
+	background-color: transparent;
+	border: 1px solid #c0c0c0;
+	padding: 1rem;
+}
+
+.search:focus {
+	outline: none;
+}
+
+.nav-menu-icon {
+	color: black;
+	fill: black;
+	align-self: center;
+}
+
+.nordic-blog {
+	margin: 0 10%;
+}
+
+.nordic-container {
+	display: flex;
+	margin-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.first-nordic-div h1{
+	font-size: 2rem;
+}
+
+.social-icon {
+	margin-top: 1rem;
+}
+
+.social-icon .u-svg-content {
+	fill: white;
+	color: white;
+	height: 2rem;
+}
+
+.first-nordic-div h2 {
+	margin-top: 17rem;
+}
+
+
+.first-nordic-div p {
+	width: 71%;
+	margin-top: 1rem;
+}
+
+
+.nordic-image-tag {
+	height: 34.4375rem;
+	width: 24.1875rem;
+}
+
+.green-decor-blog {
+	background-color: white;
+	color: black;
+}
+
+.green-container {
+	margin: 0 7%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 10rem 0;
+}
+
+.green-container .image-div {
+	width: 22rem;
+	height: 25rem;
+}
+
+.green-image-tag {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.first-green-decor h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.image-div p {
+	padding-top: 1rem;
+}
+
+.business {
+	background-color: #b7c6c5;
+}
+
+.business-container {
+	margin: 0 7%;
+}
+
+.title {
+	padding-top: 2rem;
+}
+
+.title h2 {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.business-container {
+    width: 64%;
+    padding: 3rem 0;
+}
+
+.discription h1 {
+	font-size: 3.75rem;
+	line-height: 1;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+
+.business-container .para {
+	padding-top: 1.5rem;
+	width: 78%;
+}
+
+.living {
+	background-color: white;
+	color: black;
+}
+
+.living-image {
+	width: 24.2rem;
+	height: 22rem;
+	border: 10px solid transparent;
+}
+
+.living-image-tag {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.living-container {
+	margin: 0 7%;
+	padding: 4rem 0;
+	display: flex;
+}
+
+.sale h2{
+	padding:3rem 2.5rem;
+	color: white;
+	background-color: #9baead;
+	display: inline-block;
+}
+
+.address {
+	display: flex;
+}
+
+.address p {
+	padding-left: 3rem;
+	padding-top: 2rem;
+	font-size: 1.325rem;
+	opacity: 0.8;
+}
+
+.horizontal-line {
+	height: 4px;
+	background-color: #9baead;
+	margin: 2rem 2rem 0;
+}
+
+.title h1 {
+	font-size: 3.75rem;
+	color: #9baead;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.living-para {
+	padding-left: 2rem;
+	padding-top: 1.3rem;
+}
+
+.second-para {
+	padding-top: 1.3rem;
+}
+
+.hero-container {
+	display: flex;
+}
+
+.hero-first-image {
+	width: 66%;
+	height: 691px;
+	object-fit: cover;
+}
+
+.hero-image-tag {
+	width: 100%;
+	height: 100%;
+}
+
+.hero-second-image {
+	width: 34%;
+	height: 691px;
+	object-fit: cover;
+}
+
+.concepts {
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)),url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/2c40e87651f0595ab996efd9/jh.jpg");
+	color: black;
+	object-fit: cover;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.concepts-container {
+	padding-top: 20rem;
+	padding-bottom: 20rem;
+	margin: 0 7%;
+}
+
+.concepts-title {
+	width: 41%;
+}
+
+.concepts-title h1 {
+	font-size: 3.75rem;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #9baead;
+	text-transform: capitalize;
+	line-height: 1;
+}
+
+.concepts-title p {
+	font-size: 1.125rem;
+	padding-top: 1rem;
+}
+
+.concepts .btn {
+	padding-top: 3rem;
+	display: flex;
+}
+
+.concepts .btn a{
+	text-decoration: none;
+	color: white;
+} 
+
+.btn .view {
+	padding-right: 5rem;
+}
+
+.btn .view a {
+	padding: 0.8rem 1.5rem;
+	background-color: #9baead;
+}
+
+.btn .view a:hover{
+	background-color: #454545;
+}
+
+.btn .shop a {
+	padding: 0.8rem 1.5rem;
+	background-color: transparent;	
+	color: #454545;
+	border:solid #454545 1px ;
+}
+
+.why-should {
+	background-color: white;
+	color: black;
+}
+
+.why-should-container {
+	margin: 0 10%;
+	padding: 4rem 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.why-width {
+	width: 19rem;
+	height: 21rem;
+}
+
+.why-image-tag {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.why-title {
+	padding-top: 7rem;
+}
+
+.why-title p {
+    padding-top: 1rem;
+}
+
+.images-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.u-image-width {
+	width: 21.1rem;
+	height: 25rem;
+}
+
+.images-tag {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.contact-container {
+	margin: 0 10%;
+	display: flex;
+	padding: 5rem 0;
+}
+
+.contact-firts-div {
+	width: 55%;
+
+}
+
+.contact-title h1 {
+	font-size: 1.5rem;
+}
+
+.u-input-width {
+	width: 100%;
+	padding: 0.8rem;
+	border-style: none;
+	font-size: 1.125rem;
+}
+
+.u-padding {
+	padding-top: 1.5rem;
+}
+
+.submit-btn {
+	padding-top: 3rem;
+}
+
+.submit-btn a {
+	padding: 0.8rem 2rem;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.submit-btn a:hover {
+	color: #adcce9;
+}
+
+.contact-second-div {
+	margin-left: 4rem;
+}
+
+.contact-social-icon {
+	    padding-top: 1rem;
+}
+
+.contact-social-icon .u-svg-content {
+	width: 4rem;
+	height: 4rem;
+	color: #9baead;
+	border-radius: 0.6rem;
+	fill: #9baead;
+	background-color: white;
+}
+
+.contact-social-icon h2 {
+	font-weight: bold;
+	font-size: 0.95rem;
+	padding-top: 1rem;
+}
+
+.contact-first-icon {
+	padding-top: 1rem;
+}
+
+.footer {
+	color: white;
+	background-color: #333;
+	text-align: center;
+	padding: 2rem;
+}
+
+.u-input-width:focus {
+	outline: none;
+}
+
+
+@media(max-width: 1024px) {
+	.why-should-container {
+	    margin: 0 4%;
+	    padding: 4rem 0;
+	    display: grid;
+	    grid-template-columns: repeat(3, 1fr);
+	    grid-gap: 1rem;
+	}
+
+	.why-title {
+		width: 90%;
+	}
+
+	.u-image-width {
+	    width: 32rem;
+	    height: 25rem;
+	}
+
+	.concepts {
+		object-fit: cover;
+		background-position: 50% 50%;
+		background-size: cover;
+	}
+
+	.images-container {
+	    display: grid;
+	    grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media(max-width: 992px) and (min-width: 769px) {
+	.search-icon .u-svg-content {
+	    left: 17rem;
+	}
+
+	.first-nordic-div h2 {
+    	margin-top: 5rem;
+	}
+
+	.nordic-image-tag {
+	    height: 26.438rem;
+	    width: 19.188rem;
+	}
+
+	.green-container .image-div {
+	    width: 13rem;
+	    height: 15rem;
+	}
+
+	.green-container {
+	    grid-gap: 1rem;
+	}
+
+	.title {
+	    padding-left: 2rem;
+	}
+
+	.business-container {
+	    width: 85%;
+	}
+
+	.business-container .para {
+	    padding-top: 1.5rem;
+	    width: 100%;
+	    line-height: 2;
+	}
+
+	.business-container .para p {
+		font-size: 0.9rem;
+	}
+
+	.living-container {
+		flex-direction: column;
+	}
+
+	.living-image {
+		width: 100%;
+		border: 15px solid transparent;
+	}
+
+	.hero-u-height {
+		height: 384px;
+		object-fit: cover;
+	}
+
+	.concepts-height {
+		background-size: cover;
+		background-position: 50% 50%;
+		object-fit: cover;
+	}
+
+	.concepts-container {
+	    padding-top: 10rem;
+	    padding-bottom: 10rem;
+	    margin: 0 7%;
+	}
+
+	.concepts-title {
+    	width: 66%;
+	}
+
+	.why-width {
+    	width: 22.4rem;
+    	height: 22rem;
+	}
+
+	.why-should-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.why-title {
+    	padding-top: 3rem;
+    	width: 46rem;
+	}
+
+	.why-second-div {
+		margin-left: -23.5rem;
+	}
+
+	.u-image-width {
+		width: 25rem;
+	}
+}
+
+@media(max-width: 768px) and (min-width: 577px) {
+	nav {
+		margin: 1rem 7%;
+	}
+	.search {
+		padding: 0.5rem;
+	}
+
+	.search-icon .u-svg-content {
+	    height: 1rem;
+	    position: absolute;
+	    left: 16rem;
+	    top: 0.5rem;
+	}
+
+	.first-nordic-div h2 {
+    	margin-top: 5rem;
+	}
+
+	.first-nordic-div p {
+	    width: 80%;
+	}
+
+	.nordic-image-tag {
+	    height: 26.438rem;
+	    width: 18.188rem;
+	}
+
+	.green-container .image-div {
+	    width: 13rem;
+	    height: 15rem;
+	}
+
+	.green-container {
+	    padding-top: 5rem ;
+	    grid-gap: 1rem;
+	}
+
+	.business-container {
+	    width: 95%;
+	    padding: 3rem 0;
+	    margin: 0 auto;
+	}
+
+	.business-container .para {
+	    width: 93%;
+	    line-height: 2;
+	}
+
+	.living-container {
+		flex-direction: column;
+	}
+
+	.title {
+	    padding-left: 2rem;
+	}
+
+	.living-image {
+		width: 100%;
+		border: 15px solid transparent;
+	}
+
+	.hero-u-height {
+		height: 364px;
+		object-fit: cover;
+	}
+
+	.concepts-title {
+    	width: 60%;
+	}
+
+	.concepts-container {
+		padding: 10rem 0;
+	}
+
+	.why-should-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 3.8rem;
+	}
+
+	.why-title {
+    	padding-top: 1rem;
+    	width: 43rem;
+	}
+
+	.why-second-div {
+		margin-left: -23.5rem;
+	}
+
+	.why-width {
+	    width: 20.6rem;
+	    height: 23rem;
+	}
+
+	.u-image-width {
+	    width: 24rem;
+	    height: 24rem;
+	}
+}
+
+@media(max-width: 576px) {
+	.search {
+		padding: 0.8rem;
+	}
+
+	.search-icon .u-svg-content {
+	    left: 15rem;
+	    margin-top: 0.9rem;
+	}
+
+	.nordic-container {
+		flex-direction: column;
+	}
+
+	.first-nordic-div h2 {
+    	margin-top: 2rem;
+	}
+
+	.first-nordic-div p {
+	    width: 100%;
+	}
+
+	.nordic-image-tag {
+	    height: 21.875rem;
+	    width: 20.6rem;
+	    object-fit: cover;
+	    object-position: 50% 100%;
+	}
+
+	.second-nordic-div {
+		padding-top: 2rem;
+	}
+
+	.green-container {
+	    grid-template-columns: repeat(1, 1fr);
+	    padding-top: 5rem;
+	}
+
+	.second-green-decor {
+		padding-top: 2rem;
+	}
+
+	.third-green-decor { 
+		padding-top: 8rem;
+	}
+
+	.discription h1 {
+		font-size: 2.25rem;
+	}
+
+	.discription {
+		width: 21.25rem;
+	}
+
+	.para p {
+		line-height: 2;
+	}
+
+	.living-container {
+		flex-direction: column;
+	}
+
+	.address {
+		flex-direction: column;
+	}
+
+	.sale h2 {
+    	padding: 1rem 8rem;
+    }
+
+    .title {
+    	padding-left: 2rem;
+    }
+
+    .second-living-div {
+    	padding-top: 1rem;
+    }
+
+    .living-image {
+    	width: 22.7rem;
+    	height: 19rem;
+    }
+
+    .hero-container {
+    	flex-direction: column;
+    }
+
+    .hero-u-height {
+    	width: 100%;
+    	height: 100%;
+    }
+
+    .concepts-container {
+	    padding-top: 4rem;
+	    padding-bottom: 4rem;
+	    margin: 0 7%;
+	}
+
+	.concepts-title h1 {
+    	font-size: 2rem;
+	}
+
+	.concepts-title {
+    	width: 80%;
+	}
+
+	.concepts .btn {
+	    padding-top: 3rem;
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	.shop {
+		padding-top: 4rem;
+	}
+
+	.why-should-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.why-width {
+	    width: 24rem;
+	    height: 21rem;
+	}
+
+	.why-title {
+	    width: 90%;
+	    padding-top: 1rem;
+	}
+
+	.why-title h1 {
+		font-size: 1.2rem;
+	}
+
+	.images-container {
+	    display: grid;
+	    grid-template-columns: repeat(1, 1fr);
+	}
+
+	.u-image-width {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.contact-container {
+	    margin: 0 5%;
+	    display: flex;
+	    padding: 3rem 0;
+	    flex-direction: column;
+	}
+
+	.u-input-width {
+		width: 100%;
+	}
+
+	.contact-firts-div {
+    	width: 100%;
+	}
+
+	.contact-second-div {
+	    margin-left: 0rem;
+	    padding-top: 3rem;
+	}
+
+	.business-container {
+	    width: 93%;
+	    padding: 3rem 0;
+	}
+
+	.title {
+    	padding-left: 0rem;
+	}
+
+	.title h1 {
+    	font-size: 2.5rem;
+    }
+
+    .address p {
+    	padding-left: 0rem;
+	}
+
+	.horizontal-line {
+	    height: 4px;
+	    background-color: #9baead;
+	    margin: 2rem 0;
+	}
+
+	.living-para {
+	    padding-left: 0rem;
+	    padding-top: 1.3rem;
+	}
+}
+
+
+@media(max-width: 375px) {
+	.living-image {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.why-width {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.green-container .image-div {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.nordic-image-tag {
+	    height: 100%;
+	    width: 100%;
+	}
+}
